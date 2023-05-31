@@ -1,0 +1,4 @@
+outs:
+- md5: 101695a0a17ab802fb3a9c8b65bacdc2
+  size: 1334540
+  path: params.npz

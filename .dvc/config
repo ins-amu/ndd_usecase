@@ -1,0 +1,16 @@
+[core]
+    remote = local-ela
+['remote "ssh-storage"']
+    url = ssh://cluster:/mnt/archive/jf/dvc/virtual_ndd_brain
+['remote "ssh-shared"']
+    url = ssh://cluster.ins-amu.fr:/mnt/archive/vbc/dvc
+['remote "ssh-ela"']
+    url = ssh://ela:/users/bp000275/dvc/virtual_ndd_brain
+['remote "synthetic"']
+    url = /home/izaak/data/dvc/synthetic_ndd/
+['remote "cscs"']
+    url = ../../virtual_ndd_brain_dvcstore
+['remote "local-ela"']
+    url = /users/bp000275/dvc/virtual_ndd_brain
+['remote "local-vre"']
+    url = /home/fousekj/dvc/synthetic_ndd
